@@ -6,7 +6,7 @@ assembler is by nakidai[3] and released in public domain
 pros:
 - factored out emit() function so it can be replaced with something more
   suitable for your specific use case
-- case insensitive where not needed
+- case insensitive (except for filenames in includes)
 - `inc' mnemonic that includes some other file
 cons:
 - doesn't handle comments very good, but still (start line with `; ' to make
